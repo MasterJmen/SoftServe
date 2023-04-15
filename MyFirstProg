@@ -1,0 +1,9 @@
+public static void main(String[] args) {
+        String firstStr = "my";
+        String secStr = "first";
+        String thrStr = "program";
+        System.out.println(thrStr);
+        System.out.println(secStr);
+        System.out.println(firstStr);
+    }
+}
