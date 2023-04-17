@@ -1,0 +1,19 @@
+public class Solution {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        float callCost1 = input.nextFloat();
+        float callCost2 = input.nextFloat();
+        float callCost3 = input.nextFloat();
+        float dur1 = input.nextFloat();
+        float dur2 = input.nextFloat();
+        float dur3 = input.nextFloat();
+        float first = callCost1 * dur1;
+        float second = callCost2 * dur2;
+        float third = callCost3 * dur3;
+        System.out.println("First call cost is " + first);
+        System.out.println("Second call cost is " + second);
+        System.out.println("Third call cost is " + third);
+        System.out.println("The total cost is " + (first + second + third));
+
+    }
+}
