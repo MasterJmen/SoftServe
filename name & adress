@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+        String name;
+        String adress;
+        Scanner input = new Scanner(System.in);
+        System.out.println("What is your name?");
+        name = input.nextLine();
+        System.out.println("Where do you live " + name + "?");
+        adress = input.nextLine();
+        System.out.println("Your name is " + name + " and you a living in " + adress + "?");
+    }
+}
