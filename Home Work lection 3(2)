@@ -1,0 +1,19 @@
+package com.javarush.test;
+import java.util.Scanner;
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println("Inpuut the side one");
+        Scanner input = new Scanner(System.in);
+        int side1 = input.nextInt();
+        System.out.println("Inpuut the side two");
+        int side2 = input.nextInt();
+        System.out.println("Inpuut the side three");
+        int side3 = input.nextInt();
+        System.out.println("The area of the triangle "+ threeArea(side1,side2,side3));
+    }
+    public static double threeArea( int side1, int side2,int side3){
+        double p = (double) (side1 + side2 + side3) / 2;
+        double area = Math.sqrt(p*(p - side1)*(p - side2)*(p - side3));
+        return area;
+    }
+}
