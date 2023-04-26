@@ -9,7 +9,7 @@ public class Solution {
         int side2 = input.nextInt();
         System.out.println("Inpuut the side three");
         int side3 = input.nextInt();
-        System.out.println("The area of the triangle "+ threeArea(side1,side2,side3));
+        System.out.println("The area of the triangle is "+ threeArea(side1,side2,side3));
     }
     public static double threeArea( int side1, int side2,int side3){
         double p = (double) (side1 + side2 + side3) / 2;
